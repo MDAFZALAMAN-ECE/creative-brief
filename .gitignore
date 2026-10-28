@@ -1,0 +1,8 @@
+node_modules/
+frontend/dist/
+backend/.venv/
+backend/.env
+backend/creative_brief.db
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,6 @@
+# OPTIONAL: local semantic search (set SEMANTIC_SEARCH=true in .env).
+# Install with:  python -m pip install -r requirements-semantic.txt
+# Large download (PyTorch). The app works without it using keyword retrieval.
+-r requirements.txt
+sentence-transformers>=3.0
+numpy>=1.26
