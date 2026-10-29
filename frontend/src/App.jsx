@@ -12,7 +12,7 @@ import {
 
 
 const API_BASE = (import.meta.env.VITE_API_BASE || 'https://creative-brief-faoo.onrender.com').replace(/\/$/, '');
-[
+const NAV = [
   { id: 'overview', label: 'Overview', icon: LayoutDashboard, section: 'WORKSPACE' },
   { id: 'reviews', label: 'Creative reviews', icon: FileSearch, count: '8' },
   { id: 'upload', label: 'New assessment', icon: CloudUpload },
