@@ -10,8 +10,9 @@ import {
   CheckCheck, RefreshCw, ExternalLink, Trash2, Download, ChevronUp, CircleUserRound
 } from 'lucide-react';
 
-const API_BASE = (import.meta.env.VITE_API_BASE || 'http://127.0.0.1:8000').replace(/\/$/, '');
-const NAV = [
+
+const API_BASE = (import.meta.env.VITE_API_BASE || 'https://creative-brief-faoo.onrender.com').replace(/\/$/, '');
+[
   { id: 'overview', label: 'Overview', icon: LayoutDashboard, section: 'WORKSPACE' },
   { id: 'reviews', label: 'Creative reviews', icon: FileSearch, count: '8' },
   { id: 'upload', label: 'New assessment', icon: CloudUpload },
